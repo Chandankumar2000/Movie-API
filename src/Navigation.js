@@ -8,7 +8,7 @@ const Navigation = ({ handleSearch }) => {
     return (
         <nav className="nav1">
             <div className="left">
-                <h1>Movie Mania</h1>
+                <h1>Movie API</h1>
             </div>
             <div className="right">
                 <input type="text" placeholder="Search movie by name" onChange={handleInputChange} />
